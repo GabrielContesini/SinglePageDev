@@ -9,12 +9,22 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/SinglePageDev/images/favicon-16x16.png">
     <link rel="manifest" href="/SinglePageDev/site.webmanifest">
     <link rel="stylesheet" href="style.css">
+    
     <title>GabrielContesini</title>
 </head>
 <body>
 <!-- <Div que encapsula toda a pagina> -->
 
     <div class="container">
+
+        <!--Div do menu-->
+
+        <div class="hamburguer">
+            <div class="line" id="line1"></div>
+            <div class="line" id="line2"></div>
+            <div class="line" id="line3"></div>
+            <span>fechar</span>
+        </div>
 
         <!-- Header da Pagina -->
 
@@ -33,7 +43,47 @@
                 <button>Saiba mais</button>
             </div>
         </header>
-    </div>
 
+        <!--Side bar, links e listas-->
+
+        <div class="sidebar">
+            <nav>
+              <ul class="menu">
+                <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+                <li class="menu-item"><a href="#" class="menu-link">Conhecimento</a></li>
+                <li class="menu-item"><a href="#" class="menu-link">Projetos</a></li>
+                <li class="menu-item"><a href="#" class="menu-link">Contato</a></li>
+                <li class="menu-item"><a href="#" class="menu-link">Orçamento</a></li>
+              </ul>
+            </nav>
+
+            <div class="social-media">
+                <div class="icon facebook">
+                  <div class="tooltip">Facebook</div>
+                  <span><i class="fab fa-facebook-f"></i></span>
+                </div>
+                <div class="icon twitter">
+                  <div class="tooltip">Twitter</div>
+                  <span><i class="fab fa-twitter"></i></span>
+                </div>
+                <div class="icon instagram">
+                  <div class="tooltip">Instagram</div>
+                  <span><i class="fab fa-instagram"></i></span>
+                </div>
+                <div class="icon github">
+                  <div class="tooltip">Github</div>
+                  <span><i class="fab fa-github"></i></span>
+                </div>
+
+            <!--<div class="social-media">
+                <a href="#"><i class="fab fa"></i></a>
+                <a href="#"><i class="fab fa"></i></a>
+                <a href="#"><i class="fab fa"></i></a>
+            </div>-->
+
+        </div>
+    </div>
+    <script src="/SinglePageDev/script.js"></script>
 </body>
+    
 </html>
