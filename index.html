@@ -28,7 +28,7 @@
 
         <!-- Header da Pagina -->
 
-        <header>
+        <header id="home">
 
             <!-- Imagem de fundo -->
 
@@ -40,24 +40,26 @@
             <div class="banner">
                 <h1>Front End Developer</h1>
                 <p>Gabriel Contesini</p>
-                <button>Saiba mais</button>
+                <button>
+                  Saiba mais
+                </button>
             </div>
         </header>
 
         <!--Side bar, links e listas-->
 
-        <div class="sidebar">
+        <aside class="sidebar">
             <nav>
               <ul class="menu">
                 <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
-                <li class="menu-item"><a href="#" class="menu-link">Conhecimento</a></li>
-                <li class="menu-item"><a href="#" class="menu-link">Projetos</a></li>
-                <li class="menu-item"><a href="#" class="menu-link">Contato</a></li>
-                <li class="menu-item"><a href="#" class="menu-link">Orçamento</a></li>
+                <li class="menu-item"><a href="#conhecimentos" class="menu-link">Conhecimento</a></li>
+                <li class="menu-item"><a href="#projetos" class="menu-link">Projetos</a></li>
+                <li class="menu-item"><a href="#contato" class="menu-link">Contato</a></li>
+                <li class="menu-item"><a href="#orcamento" class="menu-link">Orçamento</a></li>
               </ul>
             </nav>
 
-            <div class="social-media">
+            <aside class="social-media">
                 <div class="icon facebook">
                   <div class="tooltip">Facebook</div>
                   <span><i class="fab fa-facebook-f"></i></span>
@@ -74,16 +76,195 @@
                   <div class="tooltip">Github</div>
                   <span><i class="fab fa-github"></i></span>
                 </div>
+              </aside>
+            </div>
+            
+            <section class="sessao-conhecimentos" id="conhecimentos">
+              <div class="sessao-header">
+                <h1>Conhecimentos</h1>
+              </div>
+              <div class="conhecimentos">
+                <div class="conhecimento">
+                  <div class="conhecimento-header">
+                    <i class="fa-brands fa-html5"></i>
+                    <h3>HTML</h3>
+                  </div>
+                  <div class="conhecimento-text">
+                    <p>A Linguagem de Marcação de Hipertexto (HTML) é uma linguagem de computador que compõe a maior parte das páginas da internet e dos aplicativos online. </p>
+                  </div>
+                </div>
+                <div class="conhecimento">
+                  <div class="conhecimento-header">
+                    <i class="fa-brands fa-js"></i>
+                    <h3>Java Script</h3>
+                  </div>
+                  <div class="conhecimento-text">
+                    <p>De modo geral, o JavaScript é uma linguagem que suporta a programação orientada a objetos. Ainda que não possua várias características desta orientação nativamente, é possível realizar algumas emulações.</p>
+                  </div>
+                </div>
+                <div class="conhecimento">
+                  <div class="conhecimento-header">
+                    <i class="fa-brands fa-react"></i>
+                    <h3>ReactJs</h3>
+                  </div>
+                  <div class="conhecimento-text">
+                    <p>ReactJs ou React é uma biblioteca JavaScript usada para construir interfaces de usuário, permitindo a elaboração de aplicativos baseados em JavaScript. Os aplicativos React são executados no navegador e não precisam esperar por uma resposta do servidor</p>
+                  </div>
+                </div>
+                <div class="conhecimento">
+                  <div class="conhecimento-header">
+                    <i class="fa-brands fa-node"></i>
+                    <h3>NodeJs</h3>
+                  </div>
+                  <div class="conhecimento-text">
+                    <p>O Node.js pode ser definido como um ambiente de execução Javascript server-side.</p>
+                  </div>
+                </div>
+                <div class="conhecimento">
+                  <div class="conhecimento-header">
+                    <i class="fa-brands fa-vuejs"></i>
+                    <h3>VueJs</h3>
+                  </div>
+                  <div class="conhecimento-text">
+                    <p>é um framework progressivo para a construção de interfaces de usuário. Ao contrário de outros frameworks monolíticos, Vue foi projetado desde sua concepção para ser adotável incrementalmente.</p>
+                  </div>
+                </div>
+                <div class="conhecimento">
+                  <div class="conhecimento-header">
+                    <i class="fa-brands fa-angular"></i>
+                    <h3>Angular</h3>
+                  </div>
+                  <div class="conhecimento-text">
+                    <p>De forma simplificada, ele é um Framework. Um frame é uma estrutura de trabalho. Basicamente, é uma ferramenta que permite aos desenvolvedores trabalhar com mais eficiência e de forma mais organizada. </p>
+                  </div>
+                </div>
+                <div class="conhecimentos-img-wrapper">
+                  <img src="/SinglePageDev/images/conhecimento.png" alt="Imagem de Conhecimento">
+                </div>
+              </div>
+            </section>
 
-            <!--<div class="social-media">
-                <a href="#"><i class="fab fa"></i></a>
-                <a href="#"><i class="fab fa"></i></a>
-                <a href="#"><i class="fab fa"></i></a>
-            </div>-->
+            <section class="sessao-projetos" id="projetos">
+              <div class="sessao-header">
+                <h1>Projetos</h1>
+              </div>
+              <div class="projetos">
+                <div class="card">
+                  <div class="card-img-wrapper">
+                    <img src="/SinglePageDev/images/formularios-simples.png" alt="formulario simples">
+                  </div>
+                    <div class="card-info">
+                      <h2>Formulário Simples</h2>
+                      <h3>PHP</h3>
+                      <p>Projeto de um formulário para validação de email em PHP</p>
+                      <button>Saiba Mais</button>
+                    </div>
+                  </div> 
+                  
+               
+              
+                  <div class="card">
+                    <div class="card-img-wrapper">
+                      <img src="/SinglePageDev/images/pokedex.jpg" alt="Pokedex">
+                    </div>
+                    <div class="card-info">
+                      <h2>Pokedex</h2>
+                      <h3>JavaScript</h3>
+                      <p>Projeto de uma Pokedex simples para visualizacao dos 150 primeiros pokemons</p>
+                      <button>Saiba Mais</button>
+                    </div>
+                  </div>
+                
+                  <div class="card">
+                    <div class="card-img-wrapper">
+                      <img src="/SinglePageDev/images/urna.png" alt="Urna">
+                    </div>
+                    <div class="card-info">
+                      <h2>Urna</h2>
+                      <h3>JavaScript</h3>
+                      <p>Projeto de urna eletronica</p>
+                      <button>Saiba Mais</button>
+                  </div>
+                </div>
+              </div>
+            </section>
 
-        </div>
-    </div>
+            <section class="sessao-contato" id="contato">
+              <div class="contato-wrapper">
+                <div class="contato-left">
+                </div>
+                <div class="contato-right">
+                  <h1>Contato</h1>
+                  <form>
+                    <div class="input-group">
+                      <input type="text" class="field" id="nome">
+                      <label for="nome" class="field-label">
+                        Nome
+                      </label>
+                    </div>
+                    <div class="input-group">
+                      <input type="text" class="field" id="email">
+                      <label for="email" class="field-label">
+                        Email
+                      </label>
+                    </div>
+                    <div class="input-group">
+                      <textarea class="field" id="mensagem"></textarea>
+                      <label for="mensagem" class="field-label">
+                        Mensagem
+                      </label>
+                    </div>
+                    <button type="submit" class="btn"><p id="btn-text">Enviar</p></button>
+                    <div class="check-box">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                          <path fill="transparent" d="M14.1 27.2l7.1 7.2 16.7-16.8" />
+                      </svg>
+                  </div>
+                  </form>
+                </div>
+              </div>
+            </section>
+
+            <section class="sessao-orcamento" id="orcamento">
+              <div class="orcamento-wrapper">
+                <h1>Faça um orçamento</h1>
+                <form>
+                  <label for="quantidade">Quantidade de Paginas</label>
+                  <input type="number" min="1" name="quantidade" id="quantidade">
+                  <label for="js">Preciso de um script JS</label>
+                  <input type="checkbox" name="js" id="js">
+                  <label>Layout</label>
+                  <div class="group-layout">
+                    <div>
+                      <input type="radio" name="layout" id="layout-sim">
+                      <label for="layout-sim">Preciso de um layout</label>
+                    </div>
+                    <div>
+                      <input type="radio" name="layout" id="layout-nao">
+                      <label for="layout-nao">Ja possuo um layout</label>
+                    </div>
+                  </div>
+                  <label for="prazo">Prazo</label>
+                  <input type="range" name="prazo" id="prazo" min="1" max="10">
+                  <label id="preco">R$ 0</label>
+                  <button class="btn-orcamento" type="submit">Enviar</button>
+                </form>
+              </div>
+            </section>
+
+              <footer>
+                <div class="footer-content">
+                  <p>
+                    Copyright &copy; 2022, GABRIEL CONTESINI - Todos os direitos reservados
+                  </p>
+                </div>
+              </footer>
+              <a href="#home" id="link-topo">
+                <i class="fas fa-arrow-up"></i>
+              </a>
+
+  
+            
+  </body>
     <script src="/SinglePageDev/script.js"></script>
-</body>
-    
 </html>
