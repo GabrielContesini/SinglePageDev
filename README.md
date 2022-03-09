@@ -30,8 +30,8 @@ Antes de começar, assista os seguintes videos para melhor entendimento !!
 
 ## 📝 Colaborar com o projeto:
 
-*Na bio do meu perfil, existe um button com meu email, toda colaboração e dica sera muito bem vinda ! 😊
+* Na bio do meu perfil, existe um button com meu email, toda colaboração e dica sera muito bem vinda ! 😊
 
 ## 🎯 Objetivo do projeto:
 
-*Criar um portifolio para desenvolvedor front end, pode ser editado à gosto, sendo um projeto open source !
+* Criar um portifolio para desenvolvedor front end, pode ser editado à gosto, sendo um projeto open source !
